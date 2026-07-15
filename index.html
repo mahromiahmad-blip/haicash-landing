@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAICASH.COM</title>
+    <style>
+        /* Mengatur agar halaman memenuhi tinggi layar */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Container utama untuk memusatkan konten */
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom, #dbeafe, #93c5fd);
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Styling elemen teks */
+        .brand { font-size: 42px; letter-spacing: 0.3em; color: #1e40af; text-transform: uppercase; margin-bottom: 25px; }
+        
+        /* Divider disesuaikan posisinya setelah menghapus title */
+        .divider { width: 100px; height: 4px; background: #2563eb; margin-bottom: 40px; }
+        
+        /* font-size dikecilkan menjadi 32px agar lebih pas */
+        .desc { max-width: 800px; color: #374151; font-size: 32px; margin-bottom: 40px; line-height: 1.5; font-weight: 500; }
+
+        /* Styling tombol */
+        .btn {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn-blue { background: #2563eb; color: #fff; }
+        .btn-blue:hover { background: #1d4ed8; }
+        .btn-gray { background: #1f2937; color: #fff; }
+        .btn-gray:hover { background: #111827; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="brand">HAICASH.COM</h1>
+        <div class="divider"></div>
+        <p class="desc">
+            This domain is for sale. You may securely purchase it via GoDaddy, Sedo, or other trusted domain marketplaces.
+        </p>
+
+        <a href="https://godaddy.com" class="btn btn-blue">Buy on GoDaddy</a>
+        <a href="https://sedo.com" class="btn btn-gray">Buy on Sedo</a>
+        <a href="#" class="btn btn-gray">Other Marketplaces</a>
+    </div>
+
+</body>
+</html>
